@@ -1,0 +1,28 @@
+{
+    "minimum-stability": "stable",
+    "name": "hackeringtrue/prank-sms",
+    "description": "A tool that sends anonymous custom messages to any number",
+    "type": "project",
+    "license": "mitm",
+    "autoload": {
+        "psr-4": {
+            "Hackeringtrue\\PrankSms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HackeringTrue"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^6.10"
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    }
+}
